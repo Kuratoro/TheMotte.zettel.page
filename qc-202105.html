@@ -1,0 +1,499 @@
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <title>
+    2021-05 – Unofficial r/TheMotte Wiki
+  </title>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>twind.setup({})
+twindObserve.observe(document.documentElement)</script>
+  
+    
+      <meta property='og:description' content='Emanote -- Markdown static site generator and live server. Supports
+Wiki-links, directories, HTML templates for complete theming.
+' />
+      <meta property='og:site_name' content='TheMotte-Wiki' />
+    
+    
+      <base href='/' />
+      <link href='/logo.png' rel='icon' />
+    
+    <!-- Syntax highlighting --><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
+<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
+  
+  <head-extra></head-extra>
+</head>
+
+<body class='overflow-y-scroll'>
+  <!-- DoNotFormat -->
+  
+  <!-- DoNotFormat -->
+
+  
+    <div class='container mx-auto'>
+      <!-- Header row-->
+      <div class='grid grid-cols-12 md:px-2'>
+        <!-- Logo column -->
+        <div class='hidden md:mr-4 md:block md:col-span-3'>
+          <div class='flex items-end h-full pl-2 mt-2 space-x-2'>
+            <a href=''>
+              
+                
+                  <img class='z-50 h-20 transition transform hover:scale-125 hover:opacity-80' src='/logo.png' />
+                
+              
+            </a>
+          </div>
+        </div>
+        <!-- Title column -->
+        <div class='col-span-12 md:col-span-9'>
+          
+  <div class='w-full text-gray-700'>
+    <div class='flex justify-left'>
+      <div class='bg-green-100 md:rounded-b-lg w-full py-2 px-2 md:w-auto md:py-0 md:px-0'>
+        <ul class='flex flex-wrap text-lg md:text-sm'>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href=''>
+                Unofficial r/TheMotte Wiki
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+            <li class='inline-flex items-center'>
+              <a class='px-1 font-bold' href='qc'>
+                Quality Contributions
+              </a>
+              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
+                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
+              </svg>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<h1 class='flex items-center justify-center mt-2 text-4xl font-extrabold text-black bg-white'>
+  <a>
+    2021-05
+  </a>
+</h1>
+        </div>
+      </div>
+
+      <!-- Main row-->
+      <div class='grid grid-cols-12 px-2'>
+        <!-- Sidebar column -->
+        <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
+          <div class='float-right flex flex-row space-x-2 p-2 text-gray-500'>
+            <a href='@tags' title='View tags'>
+              <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
+                </path>
+              </svg>
+            </a>
+            <a href='@index' title='Expand full tree'>
+              <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
+                </path>
+              </svg>
+            </a>
+          </div>
+          <div class='pt-1 pb-2 rounded bg-green-50 border-2 shadow-lg'>
+            
+              <!-- Variable bindings for this tree-->
+
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Events' href='events'>
+      Events
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Coronavirus' href='corona'>
+      Coronavirus
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Lab-Leak Theory' href='covid-lab-leak'>
+      Lab-Leak Theory
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Quality Contributions' href='qc'>
+      Quality Contributions
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+
+  
+  
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
+        </path>
+      </svg>
+      
+  
+    <a class='font-bold text-green-600 hover:underline truncate' title='2021-05' href='qc-202105'>
+      2021-05
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+  
+</div>
+            
+              <!-- Variable bindings for this tree-->
+
+  
+    
+      
+      
+    
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold hover:underline truncate' title='Topics' href='topics'>
+      Topics
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Censorship' href='censorship'>
+      Censorship
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title="Science's Bias" href='science-bias'>
+      Science's Bias
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title="Wikipedia's Bias" href='wikipedia-bias'>
+      Wikipedia's Bias
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+  
+</div>
+            
+          </div>
+        </div>
+        <!-- Main body column -->
+        <div class='col-span-12 md:col-span-9'>
+          <div class='overflow-auto'>
+            <p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/nubozw/quality_contributions_report_for_may_2021_22/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>https://www.reddit.com/r/TheMotte/comments/nubozw/quality_contributions_report_for_may_2021_22/</a></p><h2 id='book-reviews' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>Book Reviews</h2><p class='my-3'><a href='https://www.reddit.com/u/ymeskhout' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ymeskhout</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nox63f/book_review_unmasked_andy_ngo/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'><em>Unmasked</em> by Andy Ngo</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/oleredrobbins' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/oleredrobbins</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nqm85g/review_of_i_was_born_in_slavery_aka_the_past_is_a/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'><em>I Was Born in Slavery</em></a></li></ul><h2 id='contributions-for-the-week-of-may-17-2021' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 17, 2021</h2><p class='my-3'><a href='https://www.reddit.com/u/2cimarafa' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyfsliq/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The British elite, new and old, shares much of the same politics.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Ilforte' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gymfjv2/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“If you can keep and selectively share secrets, in time you can gain any other right you need. And if you can’t, then those who can will take away anything they want from you, piece by tiny piece.”</a></p></li><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gynoxhr/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The booming voice of North American continent drowns out the voices of other peoples, flattens all their cultures, rends the Earth asunder and strings the white-hot debris into a Twitter feed of a 19yo girl from San Diego(Biracial, posadist, werefox, BPD vixen, <span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data='DeathToLandlords'>#DeathToLandlords</span>. {Three fist emojis} {more emojis} Pansexual. {cashapp}. she/they.). Regrettably you can’t unfollow.”</a></p></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Eetan' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Eetan</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyn0y6e/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“All people who talk about ‘Havel’s greengrocer’ miss one important piece of context, that was absolutely clear to the intended audience - people of 1970’s socialist country - and is necessary to understand the parable.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Denswend' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Denswend</a> and <a href='https://www.reddit.com/u/georgioz' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/georgioz</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li>The <a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyps622/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Yugoslav</a> Wars <a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyps7bv/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>of</a> the <a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyv2pnz/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>1990s</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Sizzle50' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Sizzle50</a></p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gz31gd8/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>policing the community</a>.</li></ul><h3 id='covid-19' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>COVID-19</h3><p class='my-3'><a href='https://www.reddit.com/u/ChrisPrattAlphaRaptr' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ChrisPrattAlphaRaptr</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyivdm1/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“We have an incomplete understanding of literally every process in the world.”</a></p></li><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyyiyq7/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“mRNA vaccines transiently produce spike protein on the order of days-weeks.”</a></p></li></ul><h3 id='abortion' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Abortion</h3><p class='my-3'><a href='https://www.reddit.com/u/FlyingLionWithABook' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/FlyingLionWithABook</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gygam4r/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“We toss away the idea that all human life is sacred to our own risk.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/wlxd' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/wlxd</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyh565g/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“That’s how I’d want the constitutional right to abortion to exist, if we are to have any: not through total bullshit legal ‘reasoning,’ but through clear and unambiguous political process.”</a></li></ul><h3 id='identity-politics' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Identity Politics</h3><p class='my-3'><a href='https://www.reddit.com/u/Southkraut' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Southkraut</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyo4nz2/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Historical injustices are impossible to resolve productively, especially in a moral framework that rejects every kind of group in favor the individual, and even more so now that some groups are re-introduces as acceptable as long as they belong to the canon of historical victims.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/RandomSourceAnimal' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/RandomSourceAnimal</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyp93b3/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“History is replete with examples of simple factual statements being signifiers in ideological fights that are, in turn, manifestations of power struggles between competing political factions.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Ame_Damnee' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ame_Damnee</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gypd9lm/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“So whatever way we look at it, there is not an epidemic of murder against trans people.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/PoliticsThrowAway549' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/PoliticsThrowAway549</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyplxp7/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I don’t think it’s an unreasonable view of history to look at, say, the rise of fascism <em>as seen in 1938</em> as <em>turbo-progressive</em> for its era.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Dysautognome' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Dysautognome</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gywsukf/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“College was pretty strict about having to take leftist concepts for granted and it certainly exuded an exclusively leftist cultural pressure.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Njordsier' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Njordsier</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gyywaob/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Against Activist Mission Creep gives a name to a concept that I had long thought important: that of activist groups undermining themselves by subjecting themselves to an ever-expanding list of requirements that distract from the original mission.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/honeypuppy' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/honeypuppy</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ne8ggb/culture_war_roundup_for_the_week_of_may_17_2021/gz4tpy2/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Steelmanning cancel culture in the face of failing to fine-tune norms.</a></li></ul><h2 id='contributions-for-the-week-of-may-24-2021' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 24, 2021</h2><p class='my-3'><a href='https://www.reddit.com/u/XantosCell' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/XantosCell</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzhl1kz/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Fantastic Mr. Fox is furry-porn for non-furries and trad-porn for non-trads.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Nouveau_Compte' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Nouveau_Compte</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzkl1s1/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“A theory that apparently explains the crime drop is the security hypothesis.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Ilforte' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzmwcaa/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“There are two ongoing AI races: China vs. the US-led West, and governing bodies vs. their citizens.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/aqouta' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/aqouta</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzt0h96/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“You think antipathy towards Doctors is even in the same class as antipathy towards lawyers and bankers?”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/curious-b' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/curious-b</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzz2ri2/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“…even if we never get to hyperinflation, and we see only mild (secular) inflation of the USD, we could get into trouble.”</a></li></ul><h3 id='covid-19-1' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>COVID-19</h3><p class='my-3'><a href='https://www.reddit.com/u/Sizzle50' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Sizzle50</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzk2u32/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The idea that we should have taken COVID more seriously is so alien to me as to be barely comprehensible.”</a></p></li><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzne2q2/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>The response to COVID-19 was worse than the disease–by the numbers.</a></p></li></ul><h3 id='love-and-courtship-in-the-21st-century' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Love and Courtship in the 21st Century</h3><p class='my-3'><a href='https://www.reddit.com/u/cjet79' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/cjet79</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzcqjtd/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“…why I hated being single and going on dates…”</a></li></ul><h3 id='identity-politics-1' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Identity Politics</h3><p class='my-3'><a href='https://www.reddit.com/u/cantbeproductive' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/cantbeproductive</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzey4wa/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“If they can write this stuff about Donald Trump, so synonymous with New York that he had a cameo in <em>Home Alone</em>, born and raised by a father raised in New York, whose name is writ large on the skyscrapers, then let us please have <em>one</em> comic about Yang’s California values.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Niallsnine' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Niallsnine</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzg5tb1/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Whether the point of “Pride” parades to reject one thing, or to normalize something else.</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Chaarmanda' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Chaarmanda</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gznwhm6/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I submit that this misses the most powerful response, which we can semi-ironically refer to as ‘the Bartleby’–refuse without fighting.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/SlightlyLessHairyApe' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/SlightlyLessHairyApe</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzrcdv6/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Framing the hill to (not) die on.</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/iprayiam3' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/iprayiam3</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzrnhtm/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>The “further you go with capitulating because this isn’t worth putting your foot down over, the deeper shit you end up in.”</a></li></ul><h2 id='contributions-for-the-week-of-may-31-2021' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 31, 2021</h2><p class='my-3'><a href='https://www.reddit.com/u/Ilforte' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h04u2ii/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>The Tian Mingjian Incident</a></p></li><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0or6jv/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Russian accelerationist trolls, yeah. This eternal roadblock towards American unity. Fine, let it even be so, I’m not in any position to demand good faith.”</a></p></li></ul><p class='my-3'><a href='https://www.reddit.com/u/2cimarafa' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0fwfzq/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“…meritocracy and aristocracy are indistinguishable in the same population over long periods provided extraneous confounding factors absent.”</a></p></li><li><p class='my-3'><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0ryfqs/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Offering [ugly people] free cosmetic surgery won’t just improve their lives, it’ll improve everyone’s.”</a></p></li></ul><h3 id='covid-19-2' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>COVID-19</h3><p class='my-3'><a href='https://www.reddit.com/u/Shakesneer' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Shakesneer</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0c0cg1/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Are we being capably lead? Why did we turn to Fauci? Did we place in him too much trust? Will he be punished and does he deserve to be?”</a></li></ul><h3 id='love-and-courtship-in-the-21st-century-1' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Love and Courtship in the 21st Century</h3><p class='my-3'><a href='https://www.reddit.com/u/2cimarafa' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h06f9v7/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“There are men who enjoy women’s company, and those who don’t, but in an age in which the barriers of casual social interaction between the sexes have come down entirely, the former have a significant advantage.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/theoutlaw1983' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/theoutlaw1983</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h07nqo5/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I really think Grey Tribe/nerdy/etc. guys end up in spirals of their own making, while a lot of normie dudes complain once or twice to their circle of friends, and that’s the end of it.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/WhiningCoil' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/WhiningCoil</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h07q7vn/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Being of many minds regarding relations between the sexes.</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/mister_ghost' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/mister_ghost</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h085s1p/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“No one I know has ever said ‘you know, dating is awesome and I really enjoy it.’”</a></li></ul><h3 id='identity-politics-2' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>Identity Politics</h3><p class='my-3'><a href='https://www.reddit.com/u/Ame_Damnee' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ame_Damnee</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0dh1d9/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“It will never happen, and when it does, you will have deserved it.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/cantbeproductive' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/cantbeproductive</a> on:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0mv17i/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Weighing what is known, versus what is said, about the infamous Tulsa riots.</a></li></ul><h2 id='quality-contributions-in-the-main-subreddit' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>Quality Contributions in the Main Subreddit</h2><p class='my-3'><a href='https://www.reddit.com/u/Iacta_Procul' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Iacta_Procul</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/ndtv38/the_bailey_podcast_e026_2_arms_1_head/gyhyyte/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“If you’re a rationalist, [depression] will convince you that you’re miserable because that’s the Facts And Logic Way To Feel.”</a></li></ul><p class='my-3'><a href='https://www.reddit.com/u/Iron-And-Rust' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Iron-And-Rust</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/nqm85g/review_of_i_was_born_in_slavery_aka_the_past_is_a/h0cektr/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“If the alternatives are to come to terms with your conditions or die, then, well… all you’re gonna have left is the people who came to terms with it.”</a></li></ul><h3 id='covid-19-3' class='mb-2 text-3xl font-bold text-gray-700 jmt-4'>COVID-19</h3><p class='my-3'><a href='https://www.reddit.com/u/FPHthrowawayB' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/FPHthrowawayB</a>:</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://www.reddit.com/r/TheMotte/comments/np52xc/trying_to_find_the_breakdown_of_participants_in/h0502oo/?context=3&sort=best' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I am 2019 Chinese coronavirus vaccine critical (a term I quite prefer to antivax).”</a></li></ul>
+          </div>
+          
+
+          
+            <div class='flex items-center justify-center mt-8 space-x-2 font-mono text-sm'>
+              
+                <a title='Tag' class='px-1 bg-gray-100 rounded'>
+                  DeathToLandlords
+                </a>
+              
+            </div>
+          
+
+          <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
+  <div class='flex space-x-2'>
+    <div><a class='font-bold' href='@index'>@Index</a></div>
+    <div>|</div>
+    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a></div>
+    <div>|</div>
+    <div><a class='font-bold' href='@tags'>@Tags</a></div>
+  </div>
+</footer>
+        </div>
+      </div>
+    </div>
+  
+</body>
+
+</html>
