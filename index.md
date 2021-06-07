@@ -14,3 +14,4 @@ path:Topics
 
 - This site is published using the open source [Emanote](https://note.ema.srid.ca/)
 - This site is like a Wiki but based on [Zettelkasten](https://neuron.zettel.page/zettelkasten) method.
+- Where may I add/edit content? [On GitHub](https://github.com/Kuratoro/TheMotte.zettel.page)
