@@ -5,3 +5,5 @@ page:
 template:
   theme: green
   iconUrl: /logo.png
+  sidebar:
+    collapsed: false
