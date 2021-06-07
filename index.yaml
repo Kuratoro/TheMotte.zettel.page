@@ -3,4 +3,5 @@ page:
   siteName: TheMotte-Wiki
 
 template:
+  theme: green
   iconUrl: /logo.png
