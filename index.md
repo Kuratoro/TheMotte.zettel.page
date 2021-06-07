@@ -12,6 +12,7 @@ path:Topics
 
 ## FAQ
 
-- This site is published using the open source [Emanote](https://note.ema.srid.ca/)
-- This site is like a Wiki but based on [Zettelkasten](https://neuron.zettel.page/zettelkasten) method.
-- Where may I add/edit content? [On GitHub](https://github.com/Kuratoro/TheMotte.zettel.page)
+- Where may I add/edit content or propose any changes? For now, [on GitHub](https://github.com/Kuratoro/TheMotte.zettel.page); if you that's painful, let me know - I'll think of an easier way.
+    - This site is published using the open source [Emanote](https://note.ema.srid.ca/)
+    - This site is like a Wiki but based on [Zettelkasten](https://neuron.zettel.page/zettelkasten) method.
+- What's "TheMotte"? A [niche community of people](https://www.reddit.com/r/TheMotte/) where rationality & sensibility is incentivized to trump groupthink.
