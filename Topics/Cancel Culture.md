@@ -1,0 +1,4 @@
+---
+slug: cancel-culture
+---
+
