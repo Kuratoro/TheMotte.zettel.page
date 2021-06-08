@@ -61,7 +61,7 @@ Wiki-links, directories, HTML templates for complete theming.
       <div class='grid grid-cols-12 px-2'>
         <!-- Sidebar column -->
         <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
-          <div class='float-right flex flex-row space-x-2 p-2 text-gray-500'>
+          <div class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
             <a href='@tags' title='View tags'>
               <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
@@ -677,6 +677,46 @@ Wiki-links, directories, HTML templates for complete theming.
   
 </div>
             
+              <!-- Variable bindings for this tree-->
+
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Users' href='users'>
+      Users
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
           </div>
         </div>
         <!-- Main body column -->
@@ -752,15 +792,13 @@ Wiki-links, directories, HTML templates for complete theming.
         </div>
       
     </div>
-  </CodeBlock:Query><h2 id='faq' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>FAQ</h2><ul class='ml-4 space-y-1 list-disc list-inside'><li>Where may I add/edit content or propose any changes? Quicker but not easier approach: <a href='https://github.com/Kuratoro/TheMotte.zettel.page' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>on GitHub</a>; Easier but with initial learning curve (if you don’t know git): editing notes locally using <a href='https://obsidian.md/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Obsidian</a> and synchronizing using <a href='https://desktop.github.com/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>GitHub Desktop</a> (you need a GitHub account for this, and push to your fork; or if you are a mod or an established member do ask for direct repository write access).<ul class='ml-4 space-y-1 list-disc list-inside'><li>This site is published using the open source <a href='https://note.ema.srid.ca/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Emanote</a></li><li>This site is like a Wiki but based on <a href='https://neuron.zettel.page/zettelkasten' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Zettelkasten</a> method.</li></ul></li><li>What’s “r/TheMotte”? A <a href='https://www.reddit.com/r/TheMotte/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>niche online community of people</a> where rationality & sensibility is incentivized to trump groupthink.</li></ul>
+  </CodeBlock:Query><h2 id='faq' class='mt-4 mb-4 text-4xl font-bold text-gray-700'>FAQ</h2><ul class='ml-4 space-y-1 list-disc list-inside'><li>What’s “r/TheMotte”? A <a href='https://www.reddit.com/r/TheMotte/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>niche online community of people</a> where rationality & sensibility is incentivized to trump groupthink.</li><li>Where may I add/edit content or propose any changes? Quicker but not easier approach: <a href='https://github.com/Kuratoro/TheMotte.zettel.page' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>on GitHub</a>; Easier but with initial learning curve (if you don’t know git): editing notes locally using <a href='https://obsidian.md/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Obsidian</a> and synchronizing using <a href='https://desktop.github.com/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>GitHub Desktop</a> (you need a GitHub account for this, and push to your fork; or if you are a mod or an established member do ask for direct repository write access).<ul class='ml-4 space-y-1 list-disc list-inside'><li>This site is published using the open source <a href='https://note.ema.srid.ca/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Emanote</a></li><li>This site is like a Wiki but based on <a href='https://neuron.zettel.page/zettelkasten' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Zettelkasten</a> method.</li></ul></li></ul>
           </div>
           
-
           
-            <div class='flex items-center justify-center mt-8 space-x-2 font-mono text-sm'>
-              
-            </div>
-          
+  <div class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </div>
 
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
   <div class='flex space-x-2'>

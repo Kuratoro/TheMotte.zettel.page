@@ -90,7 +90,7 @@ Wiki-links, directories, HTML templates for complete theming.
       <div class='grid grid-cols-12 px-2'>
         <!-- Sidebar column -->
         <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
-          <div class='float-right flex flex-row space-x-2 p-2 text-gray-500'>
+          <div class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
             <a href='@tags' title='View tags'>
               <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
@@ -702,6 +702,46 @@ Wiki-links, directories, HTML templates for complete theming.
   
 </div>
             
+              <!-- Variable bindings for this tree-->
+
+  
+    
+  
+
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-500' viewBox='0 0 20 20' fill='currentColor'>
+        <path d='M2 6a2 2 0 012-2h5l2 2h5a2 2 0 012 2v6a2 2 0 01-2 2H4a2 2 0 01-2-2V6z'></path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Users' href='users'>
+      Users
+    </a>
+    
+      
+        <span class='text-gray-300' title='1 children inside'>
+          1
+        </span>
+      
+    
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+</div>
+            
           </div>
         </div>
         <!-- Main body column -->
@@ -725,15 +765,24 @@ Wiki-links, directories, HTML templates for complete theming.
           </div>
         </li>
       
+        <li>
+          <a class='text-green-600 font-bold hover:bg-green-50' href='Users/sridqc'>
+            sridqc
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+                    -->
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h12xi39/' title class='text-black-600 hover:underline' target='_blank' rel='noopener'>“Are you part of any community where identity politics have <em>successfully</em> been put away with to the satisfaction of <em>both</em> groups of people?”</a> <a href='tech-woke' title='WikiLinkNormal' class='text-black-600 font-bold hover:bg-gray-50'>Wokeism in Tech</a></div>
+          </div>
+        </li>
+      
     </ul>
   </div>
 
-
           
-            <div class='flex items-center justify-center mt-8 space-x-2 font-mono text-sm'>
-              
-            </div>
-          
+  <div class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+    
+  </div>
 
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
   <div class='flex space-x-2'>
