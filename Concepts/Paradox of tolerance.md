@@ -1,0 +1,4 @@
+---
+slug: paradox-tolerance
+---
+
