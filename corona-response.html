@@ -99,7 +99,7 @@ the same biases.
       <!-- Main row-->
       <div class='grid grid-cols-12 px-2'>
         <!-- Sidebar column -->
-        <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
+        <nav class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
           <div class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
             <a href='@tags' title='View tags'>
               <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -300,6 +300,46 @@ the same biases.
   
     <a class='hover:underline truncate' title='LGBT' href='lgbt'>
       LGBT
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Model Minority' href='model-minority'>
+      Model Minority
     </a>
     
       
@@ -833,13 +873,14 @@ the same biases.
 </div>
             
           </div>
-        </div>
+        </nav>
         <!-- Main body column -->
         <div class='col-span-12 md:col-span-9'>
-          <div class='overflow-auto'>
-            <p class='my-3'>The societal response to the 2020 COVID-19: masks, lockdowns, etc.</p>
-          </div>
-          
+          <main>
+            <article class='overflow-auto'>
+              <p class='my-3'>The societal response to the 2020 COVID-19: masks, lockdowns, etc.</p>
+            </article>
+            
   <div class='p-4 mt-8 bg-gray-100 rounded'>
     <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
     <ul class='space-y-1'>
@@ -858,11 +899,12 @@ the same biases.
     </ul>
   </div>
 
-          
-  <div class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
     
-  </div>
+  </section>
 
+          </main>
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
   <div class='flex space-x-2'>
     <div><a class='font-bold' href='@index'>@Index</a></div>

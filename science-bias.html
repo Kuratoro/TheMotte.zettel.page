@@ -90,7 +90,7 @@ the same biases.
       <!-- Main row-->
       <div class='grid grid-cols-12 px-2'>
         <!-- Sidebar column -->
-        <div class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
+        <nav class='hidden overflow-x-auto md:mr-4 md:block md:col-span-3 md:sticky md:top-0 md:h-screen'>
           <div class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
             <a href='@tags' title='View tags'>
               <svg class='w-4 h-4 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -291,6 +291,46 @@ the same biases.
   
     <a class='hover:underline truncate' title='LGBT' href='lgbt'>
       LGBT
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
+    <a class='hover:underline truncate' title='Model Minority' href='model-minority'>
+      Model Minority
     </a>
     
       
@@ -824,13 +864,14 @@ the same biases.
 </div>
             
           </div>
-        </div>
+        </nav>
         <!-- Main body column -->
         <div class='col-span-12 md:col-span-9'>
-          <div class='overflow-auto'>
-            <p class='my-3'>Submissions,</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://old.reddit.com/r/TheMotte/comments/nqjg0x/science_has_become_a_cartel_unherd/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Science has become a cartel - UnHerd</a> - on <a href='covid-lab-leak' title='WikiLinkNormal' class='text-green-600 font-bold hover:underline'>Lab-Leak Theory</a> & <a href='censorship' title='WikiLinkNormal' class='text-green-600 font-bold hover:underline'>Censorship</a></li><li><a href='https://old.reddit.com/r/TheMotte/comments/npy71v/the_institution_of_science_is_not_trustworthy_a/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>The Institution of Science is Not Trustworthy: A Look at Youth & Brain Development as a Case Study</a></li></ul><p class='my-3'><span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data='bias'>#bias</span></p>
-          </div>
-          
+          <main>
+            <article class='overflow-auto'>
+              <p class='my-3'>Submissions,</p><ul class='ml-4 space-y-1 list-disc list-inside'><li><a href='https://old.reddit.com/r/TheMotte/comments/nqjg0x/science_has_become_a_cartel_unherd/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>Science has become a cartel - UnHerd</a> - on <a href='covid-lab-leak' title='WikiLinkNormal' class='text-green-600 font-bold hover:underline'>Lab-Leak Theory</a> & <a href='censorship' title='WikiLinkNormal' class='text-green-600 font-bold hover:underline'>Censorship</a></li><li><a href='https://old.reddit.com/r/TheMotte/comments/npy71v/the_institution_of_science_is_not_trustworthy_a/' title class='text-green-600 hover:underline' target='_blank' rel='noopener'>The Institution of Science is Not Trustworthy: A Look at Youth & Brain Development as a Case Study</a></li></ul><p class='my-3'><span class='font-bold bg-gray-100 py-1 px-2 rounded-lg' title='Tag' data='bias'>#bias</span></p>
+            </article>
+            
   <div class='p-4 mt-8 bg-gray-100 rounded'>
     <header class='mb-2 text-xl font-semibold text-gray-500'>Links to this page</header>
     <ul class='space-y-1'>
@@ -849,8 +890,8 @@ the same biases.
     </ul>
   </div>
 
-          
-  <div class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
+            
+  <section class='flex flex-wrap items-end justify-center my-4 space-x-2 space-y-2 font-mono text-sm'>
     
       <a title='Tag' class='px-1 bg-gray-100 rounded hover:bg-gray-50 hover:text-green-500' href='@tags#bias'>
         <!-- DoNotFormat -->
@@ -858,8 +899,9 @@ the same biases.
         <!-- DoNotFormat -->
       </a>
     
-  </div>
+  </section>
 
+          </main>
           <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
   <div class='flex space-x-2'>
     <div><a class='font-bold' href='@index'>@Index</a></div>
