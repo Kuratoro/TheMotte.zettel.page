@@ -9,5 +9,5 @@ Posts from r/TheMotte's "Quality Contributions Roundup", which are introduced as
 ## Monthly summaries 
 
 ```query
-path:Quality Contributions
+path:./*
 ```

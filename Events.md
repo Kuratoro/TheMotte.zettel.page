@@ -3,5 +3,5 @@ slug: events
 ---
 
 ```query
-path:Events
+path:./*
 ```
