@@ -97,7 +97,7 @@ the same biases.
               </svg>
             </a>
           </div>
-          <div class='pt-1 pb-2 rounded bg-green-50 border-2 shadow-lg'>
+          <div class='pt-1 pb-2 rounded bg-green-50 border-2 border-green-200 shadow-inner'>
             
               <!-- Variable bindings for this tree-->
 
@@ -862,22 +862,26 @@ the same biases.
           <main>
             <article class='overflow-auto'>
               
-    <div class='p-2 border-2 rounded shadow hover:shadow-lg hover:border-gray-400'>
+    <div class='px-4 py-2 border-2 rounded'>
       <header class='mb-2 font-bold text-gray-800'>
         Pages matching path './*'
       </header>
-      
-        <!-- This should be a grid -->
-        <div class='flex flex-row items-end space-y-2'>
+      <!-- This should be a grid -->
+      <div class='flex flex-col space-y-1'>
+        
           <div class='flex items-center'>
             <a class='text-green-600 font-bold hover:underline' href='corona'>
               COVID-19
             </a>
           </div>
-        </div>
-      
+        
+      </div>
     </div>
-  <p class='my-3'></p>
+  
+    <p class='my-3'>
+      
+    </p>
+  
             </article>
             
   <div class='p-4 mt-8 bg-gray-100 rounded'>
@@ -908,7 +912,9 @@ the same biases.
   <div class='flex space-x-2'>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
-    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a></div>
+    <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
+      0.1.0.1
+    </div>
     <div>|</div>
     <div><a class='font-bold' href='@tags'>@Tags</a></div>
   </div>
