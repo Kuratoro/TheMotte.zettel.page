@@ -17,3 +17,4 @@
 - [Quillette: Are Activists Protecting Asians from Hate—or Protecting Their Narrative of White Supremacy from Criticism?](https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h13d258/) [[Model Minority]] 
 - ["Bret Wesintein video pulled, warning given on channel"](https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1j8vuc/?sort=confidence) [[Censorship]] [[Science's Bias]] [[COVID-19 Vaccine]]
 - ["How to save the world, in three easy steps."](https://www.reddit.com/r/TheMotte/comments/nysb51/how_to_save_the_world_in_three_easy_steps/) (Bret talks to Robert and Steve about the pandemic, treatment and the COVID vaccines.) [[COVID-19 Response]] [[COVID-19 Vaccine]]
+  - [Steve Kirsch: "Should you get vaccinated?"](https://www.reddit.com/r/TheMotte/comments/nysb51/how_to_save_the_world_in_three_easy_steps/h1pnewk/?context=3) [[COVID-19 Vaccine]]
