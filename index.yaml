@@ -1,11 +1,7 @@
 page:
   siteTitle: Unofficial r/TheMotte Wiki
   siteName: TheMotte-Wiki
-  description: |
-    Unofficial wiki for r/TheMotte, a place for people who want to move past
-    shady thinking and test their ideas in a court of people who don't all share
-    the same biases.
-    
+
 template:
   theme: green
   iconUrl: /logo.png

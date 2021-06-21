@@ -1,3 +1,11 @@
+---
+page:
+  description: |
+    Unofficial wiki for r/TheMotte, a place for people who want to move past
+    shady thinking and test their ideas in a court of people who don't all share
+    the same biases.
+---
+
 # Unofficial r/TheMotte Wiki
 
 > "*a wiki of some sorts for [TheMotte](https://reddit.com/r/TheMotte) where we catalogued discussions on all sort of topics indexed nicely*" --- [u/sridqc](https://old.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0g3cd9/?context=3)
