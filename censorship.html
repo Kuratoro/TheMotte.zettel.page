@@ -8,10 +8,7 @@
   </title>
   
     
-      <meta property='og:description' content="Unofficial wiki for r/TheMotte, a place for people who want to move past
-shady thinking and test their ideas in a court of people who don't all share
-the same biases.
-" />
+      <meta property='og:description' content />
       <meta property='og:site_name' content='TheMotte-Wiki' />
     
     
@@ -23,8 +20,11 @@ the same biases.
 
   
   <!-- CSSSTART -->
-  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>twind.setup({})
-twindObserve.observe(document.documentElement)</script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <!-- CSSEND -->
   <head-extra></head-extra>
 </head>
@@ -488,6 +488,46 @@ twindObserve.observe(document.documentElement)</script>
       </svg>
     
   
+    <a class='hover:underline truncate' title='Vegetariainsm / Veganism / Meat' href='nutrition'>
+      Vegetariainsm / Veganism / Meat
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
     <a class='hover:underline truncate' title="Wikipedia's Bias" href='wikipedia-bias'>
       Wikipedia's Bias
     </a>
@@ -890,7 +930,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://old.reddit.com/r/TheMotte/comments/ns9rzb/the_lableak_theory_inside_the_fight_to_uncover/' class='text-black-600 hover:underline' target='_blank' rel='noopener'>The Lab-Leak Theory: Inside the Fight to Uncover COVID-19’s Origins</a>, covers the topics of <a href='censorship' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a></div>
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/ns9rzb/the_lableak_theory_inside_the_fight_to_uncover/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>The Lab-Leak Theory: Inside the Fight to Uncover COVID-19’s Origins</a>, covers the topics of <a href='censorship' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a></div>
           </div>
         </li>
       
@@ -901,7 +941,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://old.reddit.com/r/TheMotte/comments/nqjg0x/science_has_become_a_cartel_unherd/' class='text-black-600 hover:underline' target='_blank' rel='noopener'>Science has become a cartel - UnHerd</a> - on <a href='covid-lab-leak' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Lab-Leak Theory</a> & <a href='censorship' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a></div>
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/nqjg0x/science_has_become_a_cartel_unherd/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>Science has become a cartel - UnHerd</a> - on <a href='covid-lab-leak' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Lab-Leak Theory</a> & <a href='censorship' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a></div>
           </div>
         </li>
       
@@ -912,7 +952,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1j8vuc/?sort=confidence' class='text-black-600 hover:underline' target='_blank' rel='noopener'>“Bret Wesintein video pulled, warning given on channel”</a> <a href='censorship' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a> <a href='science-bias' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Science's Bias</a> <a href='corona-vaccine' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>COVID-19 Vaccine</a></div>
+            <div><a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1j8vuc/?sort=confidence' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“Bret Wesintein video pulled, warning given on channel”</a> <a href='censorship' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Censorship</a> <a href='science-bias' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Science's Bias</a> <a href='corona-vaccine' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>COVID-19 Vaccine</a></div>
           </div>
         </li>
       
@@ -930,7 +970,7 @@ twindObserve.observe(document.documentElement)</script>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
     <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
-      0.1.1.1
+      0.1.7.0
     </div>
     <div>|</div>
     <div><a class='font-bold' href='@tags'>@Tags</a></div>

@@ -8,10 +8,7 @@
   </title>
   
     
-      <meta property='og:description' content="Unofficial wiki for r/TheMotte, a place for people who want to move past
-shady thinking and test their ideas in a court of people who don't all share
-the same biases.
-" />
+      <meta property='og:description' content />
       <meta property='og:site_name' content='TheMotte-Wiki' />
     
     
@@ -23,8 +20,11 @@ the same biases.
 
   
   <!-- CSSSTART -->
-  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>twind.setup({})
-twindObserve.observe(document.documentElement)</script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <!-- CSSEND -->
   <head-extra></head-extra>
 </head>
@@ -488,6 +488,46 @@ twindObserve.observe(document.documentElement)</script>
       </svg>
     
   
+    <a class='hover:underline truncate' title='Vegetariainsm / Veganism / Meat' href='nutrition'>
+      Vegetariainsm / Veganism / Meat
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
     <a class='hover:underline truncate' title="Wikipedia's Bias" href='wikipedia-bias'>
       Wikipedia's Bias
     </a>
@@ -886,7 +926,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://old.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzg5tb1/?context=3&sort=best' class='text-black-600 hover:underline' target='_blank' rel='noopener'>Whether the point of “Pride” parades to reject one thing, or to normalize something else.</a> (Topics: <a href='lgbt' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a>)</div>
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/njr5h0/culture_war_roundup_for_the_week_of_may_24_2021/gzg5tb1/?context=3&sort=best' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>Whether the point of “Pride” parades to reject one thing, or to normalize something else.</a> (Topics: <a href='lgbt' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a>)</div>
           </div>
         </li>
       
@@ -897,7 +937,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1vbfbq/' class='text-black-600 hover:underline' target='_blank' rel='noopener'>“Science Based Medicine—Book Review: Irreversible Damage: The Transgender Craze Seducing Our Daughters”</a> <a href='lgbt' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a></div>
+            <div><a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1vbfbq/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“Science Based Medicine—Book Review: Irreversible Damage: The Transgender Craze Seducing Our Daughters”</a> <a href='lgbt' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a></div>
           </div>
         </li>
       
@@ -908,7 +948,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0yr02g/' class='text-black-600 hover:underline' target='_blank' rel='noopener'>“The Guardian, the UK’s most reputable left wing paper, has just published two articles criticising transgender activists.”</a> <a href='lgbt' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a></div>
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0yr02g/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“The Guardian, the UK’s most reputable left wing paper, has just published two articles criticising transgender activists.”</a> <a href='lgbt' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>LGBT</a></div>
           </div>
         </li>
       
@@ -926,7 +966,7 @@ twindObserve.observe(document.documentElement)</script>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
     <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
-      0.1.1.1
+      0.1.7.0
     </div>
     <div>|</div>
     <div><a class='font-bold' href='@tags'>@Tags</a></div>

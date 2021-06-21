@@ -8,10 +8,7 @@
   </title>
   
     
-      <meta property='og:description' content="Unofficial wiki for r/TheMotte, a place for people who want to move past
-shady thinking and test their ideas in a court of people who don't all share
-the same biases.
-" />
+      <meta property='og:description' content />
       <meta property='og:site_name' content='TheMotte-Wiki' />
     
     
@@ -23,8 +20,11 @@ the same biases.
 
   
   <!-- CSSSTART -->
-  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>twind.setup({})
-twindObserve.observe(document.documentElement)</script>
+  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
+// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
+console.log("ema: Twind: setup & observe")
+twind.setup({mode: 'silent'})
+window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   <!-- CSSEND -->
   <head-extra></head-extra>
 </head>
@@ -483,6 +483,46 @@ twindObserve.observe(document.documentElement)</script>
       </svg>
     
   
+    <a class='hover:underline truncate' title='Vegetariainsm / Veganism / Meat' href='nutrition'>
+      Vegetariainsm / Veganism / Meat
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+  
+</div>
+    
+      <!-- Variable bindings for this tree-->
+
+  
+    
+      
+    
+    
+
+
+
+  
+
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z'>
+        </path>
+      </svg>
+    
+  
     <a class='hover:underline truncate' title="Wikipedia's Bias" href='wikipedia-bias'>
       Wikipedia's Bias
     </a>
@@ -863,27 +903,25 @@ twindObserve.observe(document.documentElement)</script>
         <div class='col-span-12 md:col-span-9'>
           <main>
             <article class='overflow-auto'>
-              
-    <nav>
-      <!-- This should be a grid -->
-      <div class='grid grid-cols-12 gap-2 mt-4'>
-        <span class='col-span-1'></span>
-        <header class='col-span-11 pb-2 mb-2 font-semibold text-gray-600 border-b-2'>
-          Pages matching path './*'
-        </header>
-        
-          
-            <span class='col-span-1 pr-2 mr-2 text-right text-gray-600 border-r-2 '>
+              <nav>
+  <!-- This should be a grid -->
+  <div class='grid grid-cols-12 gap-2 mt-4'>
+    <span class='col-span-1'></span>
+    <header class='col-span-11 pb-2 mb-2 font-semibold text-gray-600 border-b-2'>
+      Pages matching path './*'
+    </header>
+    
+      
+        <span class='col-span-1 pr-2 mr-2 text-right text-gray-600 border-r-2 '>
 
-            </span>
-          
-          <a class='col-span-11 text-green-600 font-bold hover:underline' href='corona'>
-            COVID-19
-          </a>
-        
-      </div>
-    </nav>
-  
+        </span>
+      
+      <a class='col-span-11 text-green-600 font-bold hover:underline' href='corona'>
+        COVID-19
+      </a>
+    
+  </div>
+</nav>
     <p class='my-3'>
       
     </p>
@@ -901,7 +939,7 @@ twindObserve.observe(document.documentElement)</script>
           <div class='mb-4 overflow-auto text-sm text-gray-500'>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
                     -->
-            <div><a href='events' class='text-black-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Events</a> is the place to look for transient events.</div>
+            <div><a href='events' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Events</a> is the place to look for transient events.</div>
           </div>
         </li>
       
@@ -919,7 +957,7 @@ twindObserve.observe(document.documentElement)</script>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
     <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
-      0.1.1.1
+      0.1.7.0
     </div>
     <div>|</div>
     <div><a class='font-bold' href='@tags'>@Tags</a></div>
