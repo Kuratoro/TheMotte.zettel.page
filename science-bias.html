@@ -15,7 +15,9 @@
       <base href='/' />
       <link href='/logo.png' rel='icon' />
     
-    <!-- Syntax highlighting --><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
+    <!-- Syntax highlighting 
+TODO: Cache these in default layer, and use them directly, rather than relying on CDN.
+--><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
 <script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
 
   
@@ -950,6 +952,17 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
           </div>
         </li>
       
+        <li>
+          <a class='text-green-600 font-bold hover:bg-green-50' href='Users/sridqc'>
+            sridqc’s Bookmarks
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+                    -->
+            <div><a href='https://old.reddit.com/r/TheMotte/comments/o4syry/the_obesity_wars_and_the_education_of_a/?sort=confidence' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“The obesity wars and the education of a researcher: A personal account”</a> <a href='science-bias' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Science's Bias</a></div>
+          </div>
+        </li>
+      
     </ul>
   </div>
 
@@ -970,7 +983,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
     <div><a class='font-bold' href='@index'>@Index</a></div>
     <div>|</div>
     <div>Powered by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
-      0.1.9.0
+      0.1.12.0
     </div>
     <div>|</div>
     <div><a class='font-bold' href='@tags'>@Tags</a></div>
