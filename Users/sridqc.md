@@ -21,3 +21,5 @@
 - ["Science Based Medicine—Book Review: Irreversible Damage: The Transgender Craze Seducing Our Daughters"](https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1vbfbq/) [[LGBT]]
 - ["North Korean defector says 'even North Korea was not this nuts' after attending Ivy League school"](https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1tlnve/) [[Critical Race Theory]]
 - ["Dr. Sylvia Karpagam - India's Vegetarian Myth"](https://old.reddit.com/r/TheMotte/comments/o4jm4y/dr_sylvia_karpagam_indias_vegetarian_myth/?sort=confidence) [[Nutrition]] 
+- ["The obesity wars and the education of a researcher: A personal account"](https://old.reddit.com/r/TheMotte/comments/o4syry/the_obesity_wars_and_the_education_of_a/?sort=confidence) [[Science's Bias]]
+- ["Activists’ attempts to cancel Factorio developer backfire, result in positive reviews for the game"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2ojo11/) [[Wokeism in Tech]]
