@@ -15,11 +15,7 @@
       <base href='/' />
       <link href='/logo.png' rel='icon' />
     
-    <!-- Syntax highlighting 
-TODO: Cache these in default layer, and use them directly, rather than relying on CDN.
---><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
-<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
-
+    <!-- Add anything that should go in <head> of these routes here -->
   
   <!-- CSSSTART -->
   <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
@@ -35,25 +31,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
 
 <!-- DoNotFormat -->
 
-<body class='overflow-y-scroll bg-green-50'>
+<body class='overflow-y-scroll bg-gray-400'>
   
     <div class='container mx-auto'>
 
-      <div id='site-header' class='grid grid-cols-12'>
-        <div id='site-logo' class='hidden col-span-3 mt-2 space-x-2 md:block'>
-          <div class='flex items-end justify-start h-full'>
-            <a href=''>
-              
-                
-                  <img class='z-50 h-20 transition transform hover:scale-110 hover:opacity-80' src='/logo.png' />
-                
-              
-            </a>
-          </div>
-        </div>
-        <div class='col-span-12 md:col-span-9'>
-
-          
+      
   <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
     <div class='flex justify-left'>
       <div class='w-full px-2 py-2 bg-gray-50'>
@@ -83,19 +65,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   </nav>
 
 
-<h1 class='flex items-end justify-center pl-2 md:pl-0 md:h-full mt-2 text-5xl font-extrabold text-green-900 md:mt-0 md:text-6xl md:justify-start '>
-  <a class='z-40 tracking-tighter md:pl-4'>
-    2021-05
-  </a>
-</h1>
-        </div>
-      </div>
-
-      <div class='grid grid-cols-12 md:shadow-2xl md:rounded-lg md:mb-8'>
+      <div class='flex bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
         <!-- Sidebar column -->
-        <nav id='sidebar' class='hidden leading-relaxed md:block md:col-span-3 md:sticky md:top-0 md:h-full bg-gray-50'>
-
+        <nav id='sidebar' class='hidden leading-relaxed md:block md:sticky md:top-0 md:h-full'>
           <div class='px-2 py-2 text-gray-800'>
+
             <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
               <a href='-/tags' title='View tags'>
                 <svg class='w-5 h-5 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -110,6 +84,26 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
                 </svg>
               </a>
             </div>
+
+            <div id='site-logo' class='pl-2'>
+              <div class='flex items-center my-2 space-x-2 justify-left'>
+                <a href='' title='Go to Home'>
+                  
+                    
+                      <!-- The style width attribute here is to prevent huge
+                      icon from displaying at those rare occasions when Tailwind
+                      hasn't kicked in immediately on page load 
+                      -->
+                      <img style='width: 1rem;' class='w-4 h-4 transition transform hover:scale-110 hover:opacity-80' src='/logo.png' />
+                    
+                  
+                </a>
+                <a class='font-bold truncate' title='Go to Home' href=''>
+                  Home
+                </a>
+              </div>
+            </div>
+
             
               <!-- Variable bindings for this tree-->
 
@@ -947,11 +941,18 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
 </div>
             
+
           </div>
         </nav>
+
         <!-- Main body column -->
-        <div class='col-span-12 bg-white md:col-span-9 '>
-          <main class='px-2 py-4 md:pl-4'>
+        <div class='w-full bg-white'>
+          <main class='px-4 py-4'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-green-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    2021-05
+  </a>
+</h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
@@ -970,7 +971,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='book-reviews' class='mb-4 text-4xl font-bold text-gray-700'>Book Reviews</h2>
+  <h2 id='book-reviews' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Book Reviews</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/ymeskhout' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ymeskhout</a>:
     </p>
@@ -994,7 +995,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='contributions-for-the-week-of-may-03-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 03, 2021</h2>
+  <h2 id='contributions-for-the-week-of-may-03-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of May 03, 2021</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/EfficientSyllabus' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/EfficientSyllabus</a>:
     </p>
@@ -1006,7 +1007,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='covid-19' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
@@ -1018,7 +1019,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='education' class='mb-2 text-3xl font-bold text-gray-700'>Education</h3>
+  <h3 id='education' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Education</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/TracingWoodgrains' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/TracingWoodgrains</a>:
     </p>
@@ -1066,7 +1067,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='identity-politics' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
+  <h3 id='identity-politics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
@@ -1114,7 +1115,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='contributions-for-the-week-of-may-10-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 10, 2021</h2>
+  <h2 id='contributions-for-the-week-of-may-10-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of May 10, 2021</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/aaronb50' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/aaronb50</a>:
     </p>
@@ -1198,7 +1199,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='identity-politics-1' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
+  <h3 id='identity-politics-1' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a>:
     </p>
@@ -1222,7 +1223,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='quality-contributions-in-the-main-subreddit' class='mb-4 text-4xl font-bold text-gray-700'>Quality Contributions in the Main Subreddit</h2>
+  <h2 id='quality-contributions-in-the-main-subreddit' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Quality Contributions in the Main Subreddit</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Frosty-Beginning5601' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Frosty-Beginning5601</a>:
     </p>
@@ -1234,7 +1235,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <hr class='mb-3' /><h2 id='contributions-for-the-week-of-may-17-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 17, 2021</h2>
+  <hr class='mb-3' /><h2 id='contributions-for-the-week-of-may-17-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of May 17, 2021</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
@@ -1306,7 +1307,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='covid-19-1' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19-1' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/ChrisPrattAlphaRaptr' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ChrisPrattAlphaRaptr</a> on:
     </p>
@@ -1330,7 +1331,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='abortion' class='mb-2 text-3xl font-bold text-gray-700'>Abortion</h3>
+  <h3 id='abortion' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Abortion</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/FlyingLionWithABook' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/FlyingLionWithABook</a>:
     </p>
@@ -1354,7 +1355,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='identity-politics-2' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
+  <h3 id='identity-politics-2' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Southkraut' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Southkraut</a>:
     </p>
@@ -1438,7 +1439,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='contributions-for-the-week-of-may-24-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 24, 2021</h2>
+  <h2 id='contributions-for-the-week-of-may-24-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of May 24, 2021</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/XantosCell' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/XantosCell</a>:
     </p>
@@ -1498,7 +1499,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='covid-19-2' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19-2' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Sizzle50' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Sizzle50</a>:
     </p>
@@ -1522,7 +1523,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='love-and-courtship-in-the-21st-century' class='mb-2 text-3xl font-bold text-gray-700'>Love and Courtship in the 21st Century</h3>
+  <h3 id='love-and-courtship-in-the-21st-century' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Love and Courtship in the 21st Century</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/cjet79' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/cjet79</a>:
     </p>
@@ -1534,7 +1535,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='identity-politics-3' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
+  <h3 id='identity-politics-3' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/cantbeproductive' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/cantbeproductive</a>:
     </p>
@@ -1594,7 +1595,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='contributions-for-the-week-of-may-31-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of May 31, 2021</h2>
+  <h2 id='contributions-for-the-week-of-may-31-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of May 31, 2021</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a> on:
     </p>
@@ -1642,7 +1643,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='covid-19-3' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19-3' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Shakesneer' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Shakesneer</a>:
     </p>
@@ -1654,7 +1655,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='love-and-courtship-in-the-21st-century-1' class='mb-2 text-3xl font-bold text-gray-700'>Love and Courtship in the 21st Century</h3>
+  <h3 id='love-and-courtship-in-the-21st-century-1' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Love and Courtship in the 21st Century</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
@@ -1702,7 +1703,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='identity-politics-4' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
+  <h3 id='identity-politics-4' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Ame_Damnee' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ame_Damnee</a>:
     </p>
@@ -1726,7 +1727,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='quality-contributions-in-the-main-subreddit-1' class='mb-4 text-4xl font-bold text-gray-700'>Quality Contributions in the Main Subreddit</h2>
+  <h2 id='quality-contributions-in-the-main-subreddit-1' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Quality Contributions in the Main Subreddit</h2>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/Iacta_Procul' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Iacta_Procul</a>:
     </p>
@@ -1750,7 +1751,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h3 id='covid-19-4' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19-4' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
       <a href='https://old.reddit.com/u/FPHthrowawayB' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/FPHthrowawayB</a>:
     </p>
@@ -1773,11 +1774,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
           </main>
         </div>
       </div>
-      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
+      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-light-600'>
   <div class='flex space-x-2'>
     <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
       <span class='font-mono text-sm tracking-tighter'>
-        0.1.17.1
+        0.1.21.0
       </span>
     </div>
   </div>

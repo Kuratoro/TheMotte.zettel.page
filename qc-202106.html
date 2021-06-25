@@ -15,11 +15,7 @@
       <base href='/' />
       <link href='/logo.png' rel='icon' />
     
-    <!-- Syntax highlighting 
-TODO: Cache these in default layer, and use them directly, rather than relying on CDN.
---><link href='https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-tomorrow.css' rel='stylesheet' />
-<script src='https://cdn.jsdelivr.net/combine/npm/prismjs@1.23.0/prism.min.js,npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js'></script>
-
+    <!-- Add anything that should go in <head> of these routes here -->
   
   <!-- CSSSTART -->
   <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
@@ -35,25 +31,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
 
 <!-- DoNotFormat -->
 
-<body class='overflow-y-scroll bg-green-50'>
+<body class='overflow-y-scroll bg-gray-400'>
   
     <div class='container mx-auto'>
 
-      <div id='site-header' class='grid grid-cols-12'>
-        <div id='site-logo' class='hidden col-span-3 mt-2 space-x-2 md:block'>
-          <div class='flex items-end justify-start h-full'>
-            <a href=''>
-              
-                
-                  <img class='z-50 h-20 transition transform hover:scale-110 hover:opacity-80' src='/logo.png' />
-                
-              
-            </a>
-          </div>
-        </div>
-        <div class='col-span-12 md:col-span-9'>
-
-          
+      
   <nav id='breadcrumbs' class='w-full text-gray-700 md:hidden'>
     <div class='flex justify-left'>
       <div class='w-full px-2 py-2 bg-gray-50'>
@@ -83,19 +65,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   </nav>
 
 
-<h1 class='flex items-end justify-center pl-2 md:pl-0 md:h-full mt-2 text-5xl font-extrabold text-green-900 md:mt-0 md:text-6xl md:justify-start '>
-  <a class='z-40 tracking-tighter md:pl-4'>
-    2021-06
-  </a>
-</h1>
-        </div>
-      </div>
-
-      <div class='grid grid-cols-12 md:shadow-2xl md:rounded-lg md:mb-8'>
+      <div class='flex bg-gray-50 md:mt-8 md:shadow-2xl md:mb-8'>
         <!-- Sidebar column -->
-        <nav id='sidebar' class='hidden leading-relaxed md:block md:col-span-3 md:sticky md:top-0 md:h-full bg-gray-50'>
-
+        <nav id='sidebar' class='hidden leading-relaxed md:block md:sticky md:top-0 md:h-full'>
           <div class='px-2 py-2 text-gray-800'>
+
             <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
               <a href='-/tags' title='View tags'>
                 <svg class='w-5 h-5 hover:text-green-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -110,6 +84,26 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
                 </svg>
               </a>
             </div>
+
+            <div id='site-logo' class='pl-2'>
+              <div class='flex items-center my-2 space-x-2 justify-left'>
+                <a href='' title='Go to Home'>
+                  
+                    
+                      <!-- The style width attribute here is to prevent huge
+                      icon from displaying at those rare occasions when Tailwind
+                      hasn't kicked in immediately on page load 
+                      -->
+                      <img style='width: 1rem;' class='w-4 h-4 transition transform hover:scale-110 hover:opacity-80' src='/logo.png' />
+                    
+                  
+                </a>
+                <a class='font-bold truncate' title='Go to Home' href=''>
+                  Home
+                </a>
+              </div>
+            </div>
+
             
               <!-- Variable bindings for this tree-->
 
@@ -947,11 +941,18 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
   
 </div>
             
+
           </div>
         </nav>
+
         <!-- Main body column -->
-        <div class='col-span-12 bg-white md:col-span-9 '>
-          <main class='px-2 py-4 md:pl-4'>
+        <div class='w-full bg-white'>
+          <main class='px-4 py-4'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-green-100 text-5xl font-extrabold text-black rounded'>
+  <a class='z-40 tracking-tighter '>
+    2021-06
+  </a>
+</h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
   
@@ -966,267 +967,267 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
         </li>
       
     </ul>
-  <h2 id='contributions-for-the-week-of-june-07-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of June 07, 2021</h2>
+  <h2 id='contributions-for-the-week-of-june-07-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of June 07, 2021</h2>
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a> on:
+      <a href='https://old.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a> on:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h149c9j/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>Why there aren’t more future-positive sci-fi properties in production.</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h149c9j/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>Why there aren’t more future-positive sci-fi properties in production.</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
+      <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h153k9m/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“You won’t have a culture that builds unless you convince them of a grander, greater, more beautiful future - and that starts with people like Andreesen and Thiel building beautiful things of their own.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h153k9m/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“You won’t have a culture that builds unless you convince them of a grander, greater, more beautiful future - and that starts with people like Andreesen and Thiel building beautiful things of their own.”</a>
         </li>
       
     </ul>
-  <h3 id='covid-19' class='mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
+  <h3 id='covid-19' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>COVID-19</h3>
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/spadflyer12' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/spadflyer12</a>:
+      <a href='https://old.reddit.com/u/spadflyer12' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/spadflyer12</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1dxlcd/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Overall I was absolutely flabbergasted at the magnitude of shit-tier science that came out in an effort to disprove or discredit everything Trump said to try and instill hope.”</a> <a href='corona-response' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>COVID-19 Response</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1dxlcd/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Overall I was absolutely flabbergasted at the magnitude of shit-tier science that came out in an effort to disprove or discredit everything Trump said to try and instill hope.”</a> <a href='corona-response' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>COVID-19 Response</a>
         </li>
       
     </ul>
-  <h3 id='canadian-politics' class='mb-2 text-3xl font-bold text-gray-700'>Canadian Politics</h3>
+  <h3 id='canadian-politics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Canadian Politics</h3>
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/professorgerm' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/professorgerm</a>:
+      <a href='https://old.reddit.com/u/professorgerm' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/professorgerm</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0xk13z/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The Canadian Parliament rejects a sex-selective abortion ban…”</a> <a href='lgbt' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>LGBT</a>
-        </li>
-      
-    </ul>
-  
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/TheGuineaPig21' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/TheGuineaPig21</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0xnnd3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“…the biggest mass shooting in Canadian history occurred over April 18/19, 2020…”</a>
-        </li>
-      
-    </ul>
-  <h3 id='chinese-politics' class='mb-2 text-3xl font-bold text-gray-700'>Chinese Politics</h3>
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h12gcwp/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I’m convinced that covering up Tiananmen is possibly the biggest error of CPC propaganda, another ugly consequence of their beliefs about the administration of «harmonious society» (and, I suppose, lack of reality-based feedback, the yes-man culture in the Party apparatus).”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0xk13z/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The Canadian Parliament rejects a sex-selective abortion ban…”</a> <a href='lgbt' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>LGBT</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/VelveteenAmbush' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/VelveteenAmbush</a>:
+      <a href='https://old.reddit.com/u/TheGuineaPig21' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/TheGuineaPig21</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h130ouc/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I can’t imagine CCP looking at our gruesome example and agreeing that the path to healing leads through acknowledgement of any kind.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0xnnd3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“…the biggest mass shooting in Canadian history occurred over April 18/19, 2020…”</a>
         </li>
       
     </ul>
-  <h3 id='american-politics' class='mb-2 text-3xl font-bold text-gray-700'>American Politics</h3>
+  <h3 id='chinese-politics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Chinese Politics</h3>
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/CriticalDuty' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/CriticalDuty</a>:
+      <a href='https://old.reddit.com/u/Ilforte' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ilforte</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0ztimq/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“<em>Buck Breaking</em> is a documentary</a> by Afrocentrist commentator, activist and <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0ztj9z/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>organizer Tariq Nasheed…“</a>
-        </li>
-      
-    </ul>
-  
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h10tbam/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Unz is a sad case, more radical even than most leftist self-hating whites of the Robin diAngelo school, who at least seem to believe in a future in which whites can/will be ‘redeemed’ by ‘smashing white supremacy’ or whatever.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h12gcwp/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I’m convinced that covering up Tiananmen is possibly the biggest error of CPC propaganda, another ugly consequence of their beliefs about the administration of «harmonious society» (and, I suppose, lack of reality-based feedback, the yes-man culture in the Party apparatus).”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/gattsuru' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/gattsuru</a>:
+      <a href='https://old.reddit.com/u/VelveteenAmbush' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/VelveteenAmbush</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h13m2g3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Quite a lot of my potential dating pool has made it very clear that Trump support is an absolute non-starter for even platonic friendships, and while it’s more prominent for my demographics, it’s not limited there…”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h130ouc/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I can’t imagine CCP looking at our gruesome example and agreeing that the path to healing leads through acknowledgement of any kind.”</a>
+        </li>
+      
+    </ul>
+  <h3 id='american-politics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>American Politics</h3>
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/CriticalDuty' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/CriticalDuty</a>:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0ztimq/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“<em>Buck Breaking</em> is a documentary</a> by Afrocentrist commentator, activist and <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0ztj9z/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>organizer Tariq Nasheed…“</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/LotsRegret' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/LotsRegret</a> on:
+      <a href='https://old.reddit.com/u/2cimarafa' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/2cimarafa</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h13q102/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>How Popper’s “paradox of tolerance” shows that we should cancel “cancel culture.”</a> <a href='cancel-culture' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Cancel Culture</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h10tbam/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Unz is a sad case, more radical even than most leftist self-hating whites of the Robin diAngelo school, who at least seem to believe in a future in which whites can/will be ‘redeemed’ by ‘smashing white supremacy’ or whatever.”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/gattsuru' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/gattsuru</a> on:
+      <a href='https://old.reddit.com/u/gattsuru' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/gattsuru</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1elhvd/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“That is, there may be a lot of guidance on what would be illegal. There’s no guidance on what couldn’t be. This is a bit of a <em>theme</em> with recent firearms-related regulations.”</a>
-        </li>
-      
-    </ul>
-  <h2 id='contributions-for-the-week-of-june-14-2021' class='mb-4 text-4xl font-bold text-gray-700'>Contributions for the week of June 14, 2021</h2>
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/WestphalianPeace' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/WestphalianPeace</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1q4w6l/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I absolutely wish the Council on Foreign Relations had one tenth of the power that it is sometimes ascribed to have. The world would be a far less stupid and irrational place.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h13m2g3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Quite a lot of my potential dating pool has made it very clear that Trump support is an absolute non-starter for even platonic friendships, and while it’s more prominent for my demographics, it’s not limited there…”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/HighlandClearances' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/HighlandClearances</a>:
+      <a href='https://old.reddit.com/u/LotsRegret' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/LotsRegret</a> on:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1u8xqf/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Three months ago, my wife and I decided to leverage work from home to test-drive rural life.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h13q102/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>How Popper’s “paradox of tolerance” shows that we should cancel “cancel culture.”</a> <a href='cancel-culture' class='text-green-600 font-bold hover:underline' data-wikilink-type='WikiLinkNormal'>Cancel Culture</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/Ame_Damnee' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ame_Damnee</a>:
+      <a href='https://old.reddit.com/u/gattsuru' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/gattsuru</a> on:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1ye6nu/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Maybe when we have seven billion 160+ IQ people, we’ll get Post-Scarcity Luxury Gay Space Communism. But until that day, it will still be a lot of the same things that enable success today…”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h1elhvd/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“That is, there may be a lot of guidance on what would be illegal. There’s no guidance on what couldn’t be. This is a bit of a <em>theme</em> with recent firearms-related regulations.”</a>
+        </li>
+      
+    </ul>
+  <h2 id='contributions-for-the-week-of-june-14-2021' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Contributions for the week of June 14, 2021</h2>
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/WestphalianPeace' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/WestphalianPeace</a>:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1q4w6l/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“I absolutely wish the Council on Foreign Relations had one tenth of the power that it is sometimes ascribed to have. The world would be a far less stupid and irrational place.”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/ymeskhout' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ymeskhout</a> on:
+      <a href='https://old.reddit.com/u/HighlandClearances' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/HighlandClearances</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1zf63k/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>How resources get doled out in criminal defense.</a>
-        </li>
-      
-    </ul>
-  <h3 id='identity-politics' class='mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/titus_1_15' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/titus_1_15</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1r7j86/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The majority of you are descended, a scant few generations back, from people who abandoned their homelands to escape history. You come from deeply WEIRD stock. But [Foundational Black Americans] were pressganged into your arrangement.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1u8xqf/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Three months ago, my wife and I decided to leverage work from home to test-drive rural life.”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/VelveteenAmbush' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/VelveteenAmbush</a>:
+      <a href='https://old.reddit.com/u/Ame_Damnee' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Ame_Damnee</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h24hwwr/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“So, my challenge for people who are lining up to condemn fat people but who like to think of themselves as engaged in something other than literal bullying for its own sake: Prove it!”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1ye6nu/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“Maybe when we have seven billion 160+ IQ people, we’ll get Post-Scarcity Luxury Gay Space Communism. But until that day, it will still be a lot of the same things that enable success today…”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/Iron-And-Rust' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Iron-And-Rust</a>:
+      <a href='https://old.reddit.com/u/ymeskhout' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/ymeskhout</a> on:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h2fxdw0/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“What does ‘western culture’ mean? Almost nobody’s able to give you an answer to it at all, even though it’s actually incredibly important. So people end up saying inane things like that there actually is no such thing as western culture. And then you don’t realize when it’s going away.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1zf63k/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>How resources get doled out in criminal defense.</a>
         </li>
       
     </ul>
-  <h2 id='quality-contributions-in-the-main-subreddit' class='mb-4 text-4xl font-bold text-gray-700'>Quality Contributions in the Main Subreddit</h2>
+  <h3 id='identity-politics' class='mt-6 mb-2 text-3xl font-bold text-gray-700'>Identity Politics</h3>
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/InspectorPraline' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/InspectorPraline</a> on:
+      <a href='https://old.reddit.com/u/titus_1_15' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/titus_1_15</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nvy4ys/a_primer_on_ufos/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>A primer on UFOs.</a>
-        </li>
-      
-    </ul>
-  
-    <p class='mb-3'>
-      <a href='https://www.reddit.com/u/Rov_Scam' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Rov_Scam</a>:
-    </p>
-  
-    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
-      
-        <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/nyq6j1/smallscale_question_sunday_for_june_13_2021/h1osdos/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“There may be a lot of talented writers out there, but there will always be few who can spark revolutions.”</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h1r7j86/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“The majority of you are descended, a scant few generations back, from people who abandoned their homelands to escape history. You come from deeply WEIRD stock. But [Foundational Black Americans] were pressganged into your arrangement.”</a>
         </li>
       
     </ul>
   
     <p class='mb-3'>
-      <a href='https://www.reddit.com/u/evilmaniacal' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/evilmaniacal</a> on:
+      <a href='https://old.reddit.com/u/VelveteenAmbush' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/VelveteenAmbush</a>:
     </p>
   
     <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
       
         <li>
-          <a href='https://www.reddit.com/r/TheMotte/comments/o2znl6/no_millennials_dont_have_it_worse_than_previous/h29w5t3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>The extent to which Millennials are facing economic hardship as a result of public policy.</a>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h24hwwr/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“So, my challenge for people who are lining up to condemn fat people but who like to think of themselves as engaged in something other than literal bullying for its own sake: Prove it!”</a>
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/Iron-And-Rust' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Iron-And-Rust</a>:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nzg9y4/culture_war_roundup_for_the_week_of_june_14_2021/h2fxdw0/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“What does ‘western culture’ mean? Almost nobody’s able to give you an answer to it at all, even though it’s actually incredibly important. So people end up saying inane things like that there actually is no such thing as western culture. And then you don’t realize when it’s going away.”</a>
+        </li>
+      
+    </ul>
+  <h2 id='quality-contributions-in-the-main-subreddit' class='inline-block mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Quality Contributions in the Main Subreddit</h2>
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/InspectorPraline' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/InspectorPraline</a> on:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nvy4ys/a_primer_on_ufos/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>A primer on UFOs.</a>
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/Rov_Scam' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/Rov_Scam</a>:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/nyq6j1/smallscale_question_sunday_for_june_13_2021/h1osdos/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>“There may be a lot of talented writers out there, but there will always be few who can spark revolutions.”</a>
+        </li>
+      
+    </ul>
+  
+    <p class='mb-3'>
+      <a href='https://old.reddit.com/u/evilmaniacal' class='text-green-600 hover:underline' target='_blank' rel='noopener'>/u/evilmaniacal</a> on:
+    </p>
+  
+    <ul class='my-3 ml-4 space-y-1 list-disc list-inside'>
+      
+        <li>
+          <a href='https://old.reddit.com/r/TheMotte/comments/o2znl6/no_millennials_dont_have_it_worse_than_previous/h29w5t3/?context=3&sort=best' class='text-green-600 hover:underline' target='_blank' rel='noopener'>The extent to which Millennials are facing economic hardship as a result of public policy.</a>
         </li>
       
     </ul>
@@ -1241,11 +1242,11 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
           </main>
         </div>
       </div>
-      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-gray-500'>
+      <footer class='flex items-center justify-center mt-2 mb-8 space-x-4 text-center text-light-600'>
   <div class='flex space-x-2'>
     <div>Generated by <a class='font-bold' href='https://note.ema.srid.ca/'>Emanote</a>
       <span class='font-mono text-sm tracking-tighter'>
-        0.1.17.1
+        0.1.21.0
       </span>
     </div>
   </div>
