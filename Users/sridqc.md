@@ -24,3 +24,4 @@
 - ["The obesity wars and the education of a researcher: A personal account"](https://old.reddit.com/r/TheMotte/comments/o4syry/the_obesity_wars_and_the_education_of_a/?sort=confidence) [[Science's Bias]] [[Nutrition]]
 - ["Activists’ attempts to cancel Factorio developer backfire, result in positive reviews for the game"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2ojo11/) [[Wokeism in Tech]]
 - ["As a doctor in India who's had COVID twice and worked in a COVID ICU"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2n69zy/) [[COVID-19]] [[Notable Members]]
+- [Social Media Success Is Driven by Hate](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h323bnt/?context=3) [[Social Media]]
