@@ -2,5 +2,5 @@
 slug: nutrition
 ---
 
-# Vegetariainsm / Veganism / Meat
+# Nutrition
 
