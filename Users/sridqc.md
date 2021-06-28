@@ -25,3 +25,4 @@
 - ["Activists’ attempts to cancel Factorio developer backfire, result in positive reviews for the game"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2ojo11/) [[Wokeism in Tech]]
 - ["As a doctor in India who's had COVID twice and worked in a COVID ICU"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2n69zy/) [[COVID-19]] [[Notable Members]]
 - [Social Media Success Is Driven by Hate](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h323bnt/?context=3) [[Social Media]]
+- ["How do people deal with how nuts the rest of Reddit is at the moment? Just withdraw?"](https://www.reddit.com/r/TheMotte/comments/o8rfec/smallscale_question_sunday_for_june_27_2021/h392ulb/?sort=confidence) [[Social Media]]
