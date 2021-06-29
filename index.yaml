@@ -7,3 +7,4 @@ template:
   iconUrl: /logo.png
   sidebar:
     collapsed: false
+  urlStrategy: pretty

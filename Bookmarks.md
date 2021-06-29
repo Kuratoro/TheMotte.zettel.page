@@ -1,12 +1,16 @@
-# sridqc's Bookmarks
-## Bookmarks
+---
+order: 10
+---
+# Bookmarks
 
-### 2021-05
+Bookmarks to threads not catalogued in [[Quality Contributions]].
+
+## 2021-05
 
 - ["Wikipedia is not trust worthy in controversial topics."](https://old.reddit.com/r/TheMotte/comments/n3pe45/culture_war_roundup_for_the_week_of_may_03_2021/gxapezx/?context=3) [[Wikipedia's Bias]]
   - [u/honeypuppy](https://old.reddit.com/r/TheMotte/comments/iseo9j/culture_war_roundup_for_the_week_of_september_14/g5r8iit/)
 
-### 2021-06
+## 2021-06
 
 - ["The Guardian, the UK's most reputable left wing paper, has just published two articles criticising transgender activists."](https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0yr02g/) [[LGBT]]
 - [Science Is Shaped by Wikipedia: Evidence From a Randomized Control Trial](https://old.reddit.com/r/TheMotte/comments/nu5kvj/culture_war_roundup_for_the_week_of_june_07_2021/h0vvm02/) - on [[Wikipedia's Bias]] & [[Science's Bias]]
@@ -23,6 +27,6 @@
 - ["Dr. Sylvia Karpagam - India's Vegetarian Myth"](https://old.reddit.com/r/TheMotte/comments/o4jm4y/dr_sylvia_karpagam_indias_vegetarian_myth/?sort=confidence) [[Nutrition]] 
 - ["The obesity wars and the education of a researcher: A personal account"](https://old.reddit.com/r/TheMotte/comments/o4syry/the_obesity_wars_and_the_education_of_a/?sort=confidence) [[Science's Bias]] [[Nutrition]]
 - ["Activists’ attempts to cancel Factorio developer backfire, result in positive reviews for the game"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2ojo11/) [[Wokeism in Tech]]
-- ["As a doctor in India who's had COVID twice and worked in a COVID ICU"](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h2n69zy/) [[COVID-19]] [[Notable Members]]
 - [Social Media Success Is Driven by Hate](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h323bnt/?context=3) [[Social Media]]
 - ["How do people deal with how nuts the rest of Reddit is at the moment? Just withdraw?"](https://www.reddit.com/r/TheMotte/comments/o8rfec/smallscale_question_sunday_for_june_27_2021/h392ulb/?sort=confidence) [[Social Media]]
+- ["Report: United States Ranks Last In Media Trust"](https://www.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h35xpzj/?context=3) [[Mainstream Media]]
