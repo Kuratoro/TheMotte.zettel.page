@@ -16,7 +16,6 @@ Navigating this site,
 - [[Events]] is the place to look for transient events.
 - [[Quality Contributions]] is the "master index"
   - Its content is integrated via "backlinks" in the aforementioned pages, so begin with Topics or Events.
-- [[Users]] acts like a place to store your 'bookmarks' to r/TheMotte submissions or comments, on a per-user basis.
 
 ## FAQ
 
