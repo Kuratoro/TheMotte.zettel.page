@@ -30,3 +30,7 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - [Social Media Success Is Driven by Hate](https://old.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h323bnt/?context=3) [[Social Media]]
 - ["How do people deal with how nuts the rest of Reddit is at the moment? Just withdraw?"](https://www.reddit.com/r/TheMotte/comments/o8rfec/smallscale_question_sunday_for_june_27_2021/h392ulb/?sort=confidence) [[Social Media]]
 - ["Report: United States Ranks Last In Media Trust"](https://www.reddit.com/r/TheMotte/comments/o4ooc7/culture_war_roundup_for_the_week_of_june_21_2021/h35xpzj/?context=3) [[Mainstream Media]]
+
+## 2021-07
+
+- ["It appears there's an effort underway to 'cancel' non-establishment views on nutrition. Seems impossible, yet it's happening. Non-orthodox opinions are being suppressed in many fields-why not nutrition?"](https://old.reddit.com/r/TheMotte/comments/o9edtt/culture_war_roundup_for_the_week_of_june_28_2021/h3nq1ae/?sort=confidence) [[Nutrition]] [[Cancel Culture]]
