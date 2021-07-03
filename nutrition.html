@@ -19,11 +19,7 @@
 
   
   <!-- CSSSTART -->
-  <script type='text/javascript' src='https://cdn.jsdelivr.net/combine/npm/twind/twind.umd.min.js,npm/twind/observe/observe.umd.min.js'></script><script type='text/javascript'>// Be silent to avoid complaining about non-tailwind classes
-// https://github.com/tw-in-js/twind/discussions/180#discussioncomment-678272
-console.log("ema: Twind: setup & observe")
-twind.setup({mode: 'silent'})
-window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
+	<link rel="stylesheet" href="emanote-compiled-4a499aeb505c0ea911d9b210e9cbf872.css" />
   <!-- CSSEND -->
 
   <!-- Heist error element -->
@@ -34,16 +30,20 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       font-family: monospace;
     }
   </style>
-  <head-extra></head-extra>
-  <!-- What goes in this file will appear on near the end of <head>--><style>
+  <!-- What goes in this file will appear on near the end of <head>--><link rel='preload' href='_emanote-static/fonts/Nunito/Nunito-Regular.ttf' as='font' type='font/ttf' crossorigin />
+<link rel='preload' href='_emanote-static/fonts/Nunito/Nunito-ExtraBold.ttf' as='font' type='font/ttf' crossorigin />
+
+<style>
   @font-face {
     font-family: 'Nunito';
     src: url('_emanote-static/fonts/Nunito/Nunito-Regular.ttf') format("truetype");
+    font-display: swap;
   }
 
   @font-face {
     font-family: 'Nunito-Bold';
     src: url('_emanote-static/fonts/Nunito/Nunito-ExtraBold.ttf') format("truetype");
+    font-display: swap;
   }
 
   body {
@@ -1126,6 +1126,18 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
             <!-- TODO: How to style the backlinks list item element? Or render each separately?
               Also, group contexts from same source.
             -->
+            <div><a href='https://np.reddit.com/r/TheMotte/comments/o9edtt/culture_war_roundup_for_the_week_of_june_28_2021/h3wek24/' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“The Scientific Reality of Meat and Human Health - The full story in 15 min!”</a> <a href='nutrition' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Nutrition</a></div>
+          </div>
+        </li>
+      
+        <li>
+          <a class='text-green-600 font-bold hover:bg-green-50' href='Bookmarks'>
+            Bookmarks
+          </a>
+          <div class='mb-4 overflow-auto text-sm text-gray-500'>
+            <!-- TODO: How to style the backlinks list item element? Or render each separately?
+              Also, group contexts from same source.
+            -->
             <div><a href='https://old.reddit.com/r/TheMotte/comments/o4syry/the_obesity_wars_and_the_education_of_a/?sort=confidence' class='text-gray-600 hover:underline' target='_blank' rel='noopener'>“The obesity wars and the education of a researcher: A personal account”</a> <a href='science-bias' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Science's Bias</a> <a href='nutrition' class='text-gray-600 font-bold hover:bg-gray-50' data-wikilink-type='WikiLinkNormal'>Nutrition</a></div>
           </div>
         </li>
@@ -1147,7 +1159,7 @@ window.emaTwindObs = twindObserve.observe(document.documentElement);</script>
       
         
           <span class='font-mono text-sm tracking-tighter' title='And rendered with /templates/layouts/book'>
-            0.1.34.0
+            0.1.34.4
           </span>
         
       
