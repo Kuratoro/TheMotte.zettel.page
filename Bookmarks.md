@@ -35,3 +35,4 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 
 - ["It appears there's an effort underway to 'cancel' non-establishment views on nutrition. Seems impossible, yet it's happening. Non-orthodox opinions are being suppressed in many fields-why not nutrition?"](https://old.reddit.com/r/TheMotte/comments/o9edtt/culture_war_roundup_for_the_week_of_june_28_2021/h3nq1ae/?sort=confidence) [[Nutrition]] [[Cancel Culture]]
 - ["The Scientific Reality of Meat and Human Health - The full story in 15 min!"](https://np.reddit.com/r/TheMotte/comments/o9edtt/culture_war_roundup_for_the_week_of_june_28_2021/h3wek24/) [[Nutrition]]
+- ["It is impossible to steelman CRT, in my opinion, because CRT denies personal responsibility to effectute genuine personal change"](https://np.reddit.com/r/TheMotte/comments/oe16bz/culture_war_roundup_for_the_week_of_july_05_2021/h44f20v/?context=2) [[Critical Race Theory]]
