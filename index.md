@@ -8,14 +8,12 @@ page:
 
 # Unofficial r/TheMotte Wiki
 
-> "*a wiki of some sort for [TheMotte](https://old.reddit.com/r/TheMotte) where we catalogued discussions on all sort of topics indexed nicely*" --- [ref](https://old.reddit.com/r/TheMotte/comments/nowgdg/culture_war_roundup_for_the_week_of_may_31_2021/h0g3cd9/?context=3)
-
 Navigating this site,
 
 - [[Topics]] is usually where you want to begin with.
 - [[Events]] is the place to look for transient events.
 - [[Quality Contributions]] is the "master index"
-  - Its content is integrated via "backlinks" in the aforementioned pages, so begin with Topics or Events.
+  - Its content is integrated via "backlinks" in the aforementioned pages, so begin with [[Topics]] or [[Events]].
 
 ## FAQ
 
