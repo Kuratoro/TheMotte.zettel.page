@@ -41,3 +41,6 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["VAERS is VASTLY underreporting."](https://old.reddit.com/r/TheMotte/comments/oe16bz/culture_war_roundup_for_the_week_of_july_05_2021/h4hwpi1/) [[COVID-19 Vaccine]]
 - ["the psychology of woke left"](https://www.reddit.com/r/TheMotte/comments/o9edtt/culture_war_roundup_for_the_week_of_june_28_2021/h3bqz4l/) [[Culture War]] [[Well-being]]
 - ["A PTA Purge of Asians"](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h58cpx6/) [[Model Minority]]
+- ["The Biden administration is telling Facebook which posts it regards as "problematic" so that Facebook can remove them."](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5bls83/) [[COVID-19 Vaccine]] [[Censorship]]
+- ["YouTube Fined By Germany For Removing Pandemic Protest Video"](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5igl9z/) [[COVID-19 Response]] [[Censorship]]
+- ["EFF: Right or Left, You Should Be Worried About Big Tech Censorship"](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5panvb/) [[Censorship]]
