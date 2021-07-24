@@ -44,3 +44,4 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["The Biden administration is telling Facebook which posts it regards as "problematic" so that Facebook can remove them."](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5bls83/) [[COVID-19 Vaccine]] [[Censorship]]
 - ["YouTube Fined By Germany For Removing Pandemic Protest Video"](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5igl9z/) [[COVID-19 Response]] [[Censorship]]
 - ["EFF: Right or Left, You Should Be Worried About Big Tech Censorship"](https://old.reddit.com/r/TheMotte/comments/oilgzl/culture_war_roundup_for_the_week_of_july_12_2021/h5panvb/) [[Censorship]]
+- ["Human Nature and Morality as a Weapon"](https://old.reddit.com/r/TheMotte/comments/on89vw/culture_war_roundup_for_the_week_of_july_19_2021/h698oqb/) [[Wokeism in Tech]] [[Cancel Culture]]
