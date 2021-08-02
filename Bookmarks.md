@@ -51,3 +51,10 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["Twitter thread on the backbone of woke education"](https://old.reddit.com/r/TheMotte/comments/orsvle/culture_war_roundup_for_the_week_of_july_26_2021/h6woer9/) [[Critical Race Theory]]
 - [I detest the idea that the purpose of your whole life is to acquire a pile of concrete within which to raise a "traditional family"](https://old.reddit.com/r/TheMotte/comments/orsvle/culture_war_roundup_for_the_week_of_july_26_2021/h6xej3p/) [[Well-being]]
 - [Google / Facebook to mandate vaccines](https://old.reddit.com/r/TheMotte/comments/orsvle/culture_war_roundup_for_the_week_of_july_26_2021/h6vllcl/) [[COVID-19 Vaccine]] [[Wokeism in Tech]]
+- [Finding heterodox communities online](https://www.reddit.com/r/TheMotte/comments/ndtcbk/finding_heterodox_communities_online/) [[Censorship]]
+
+
+## 2021-08
+
+- [A "a well-funded cabal of powerful people" as it was evidently the case in 2020 election, or the ongoing Big Tech censorship, or pushing CRT in schools.](https://old.reddit.com/r/TheMotte/comments/ow8tkj/culture_war_roundup_for_the_week_of_august_02_2021/h7fpgao/?context=4) [[Collusion]]
+- [Emails show collusion between US government and Facebook over online coronavirus “misinformation”](https://old.reddit.com/r/TheMotte/comments/ow8tkj/culture_war_roundup_for_the_week_of_august_02_2021/h7fu8sg/) [[Collusion]] [[COVID-19 Response]]
