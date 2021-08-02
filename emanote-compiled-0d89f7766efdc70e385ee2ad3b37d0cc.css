@@ -356,13 +356,13 @@ ul {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .mx-2 {
   margin-left: 0.5rem;
@@ -370,9 +370,6 @@ ul {
 }
 .mb-4 {
   margin-bottom: 1rem;
-}
-.ml-6 {
-  margin-left: 1.5rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -385,6 +382,9 @@ ul {
 }
 .mb-8 {
   margin-bottom: 2rem;
+}
+.ml-6 {
+  margin-left: 1.5rem;
 }
 .mr-2 {
   margin-right: 0.5rem;
