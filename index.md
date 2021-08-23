@@ -12,8 +12,6 @@ Navigating this site,
 
 - [[Topics]] is usually where you want to begin with.
 - [[Events]] is the place to look for transient events.
-- [[Quality Contributions]] is the "master index"
-  - Its content is integrated via "backlinks" in the aforementioned pages, so begin with [[Topics]] or [[Events]].
 
 ## FAQ
 
