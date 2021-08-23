@@ -66,6 +66,9 @@ h1 {
   font-size: inherit;
   font-weight: inherit;
 }
+h1, blockquote, p {
+  margin: 0;
+}
 h1, p {
   margin: 0;
 }
@@ -205,11 +208,11 @@ ul {
 .rounded-lg {
   border-radius: 0.5rem;
 }
-.border-l-2 {
-  border-left-width: 2px;
-}
 .border-l-4 {
   border-left-width: 4px;
+}
+.border-l-2 {
+  border-left-width: 2px;
 }
 .border-b-2 {
   border-bottom-width: 2px;
@@ -386,11 +389,11 @@ ul {
 .ml-6 {
   margin-left: 1.5rem;
 }
-.mr-2 {
-  margin-right: 0.5rem;
-}
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+.mr-2 {
+  margin-right: 0.5rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
