@@ -79,3 +79,5 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["The F.D.A. is aiming to give full approval to Pfizer’s Covid vaccine on Monday."](https://old.reddit.com/r/TheMotte/comments/p5acum/culture_war_roundup_for_the_week_of_august_16_2021/h9s5f59/?context=3) [[COVID-19 Vaccine]]
 - ["[Wikipedia has] a gigantic war chest of $180 million"](https://old.reddit.com/r/TheMotte/comments/p5acum/culture_war_roundup_for_the_week_of_august_16_2021/h9gi0d5/?sort=confidence) [[Wikipedia's Bias]]
 - ["Do I gather, then, that you actually understand what intelligence actually means"](https://old.reddit.com/r/TheMotte/comments/p5acum/culture_war_roundup_for_the_week_of_august_16_2021/ha1uoxh/?context=3) [[Moral hypocrisy]]
+- ["Has anyone in the rationality community reviewed The Folly of Fools by Robert Trivers"](https://old.reddit.com/r/TheMotte/comments/p97e6v/smallscale_question_sunday_for_august_22_2021/ha2nd0h/) [[Moral hypocrisy]]
+- ["Was the Pfizer vaccine actually approved?"](https://old.reddit.com/r/TheMotte/comments/p9tvxl/culture_war_roundup_for_the_week_of_august_23_2021/haa6rus/) [[COVID-19 Vaccine]]
