@@ -88,3 +88,9 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["CDC: 94.9% had at least 1 underlying medical condition"](https://old.reddit.com/r/TheMotte/comments/p9tvxl/culture_war_roundup_for_the_week_of_august_23_2021/ham99y2/) [[COVID-19 Response]]
 - ["would you say that, without supplementation, your serum level of Mg is low"](https://old.reddit.com/r/TheMotte/comments/pb5eox/wellness_wednesday_for_august_25_2021/habfop8/?context=1) [[Nutrition]]
 - ["Berlin’s university canteens go almost meat-free as students prioritise climate"](https://old.reddit.com/r/TheMotte/comments/pecd0o/culture_war_roundup_for_the_week_of_august_30_2021/hb1lfij/) [[Nutrition]]
+
+## 2021-09
+
+- ["An online survey found 30% of EAs were vegan"](https://old.reddit.com/r/TheMotte/comments/pecd0o/culture_war_roundup_for_the_week_of_august_30_2021/hb7pz6p/?context=3) [[Nutrition]]
+- ["I think I discovered a "first principles" way (as Elon Musk would say) to living optimally"](https://old.reddit.com/r/TheMotte/comments/pfnysq/wellness_wednesday_for_september_01_2021/hb6stec/) [[Well-being]]
+- [" How did American “wokeness” jump from elite schools to everyday life?"](https://old.reddit.com/r/TheMotte/comments/pecd0o/culture_war_roundup_for_the_week_of_august_30_2021/hbklxdw/) [[Critical Race Theory]] [[Wokeism in Tech]]
