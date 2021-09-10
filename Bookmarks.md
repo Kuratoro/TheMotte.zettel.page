@@ -94,3 +94,4 @@ Bookmarks to threads not catalogued in [[Quality Contributions]].
 - ["An online survey found 30% of EAs were vegan"](https://old.reddit.com/r/TheMotte/comments/pecd0o/culture_war_roundup_for_the_week_of_august_30_2021/hb7pz6p/?context=3) [[Nutrition]]
 - ["I think I discovered a "first principles" way (as Elon Musk would say) to living optimally"](https://old.reddit.com/r/TheMotte/comments/pfnysq/wellness_wednesday_for_september_01_2021/hb6stec/) [[Well-being]]
 - [" How did American “wokeness” jump from elite schools to everyday life?"](https://old.reddit.com/r/TheMotte/comments/pecd0o/culture_war_roundup_for_the_week_of_august_30_2021/hbklxdw/) [[Critical Race Theory]] [[Wokeism in Tech]]
+- ["Writer Christopher Rufo was unverified on Twitter after exposing controversial Google employee trainings"](https://old.reddit.com/r/TheMotte/comments/pitqan/culture_war_roundup_for_the_week_of_september_06/hc8kkjh/) [[Wokeism in Teh]] [[Critical Race Theory]]
