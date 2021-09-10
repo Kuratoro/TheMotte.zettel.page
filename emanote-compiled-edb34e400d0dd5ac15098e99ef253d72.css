@@ -562,6 +562,10 @@ ul {
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
 }
+.line-through {
+  -webkit-text-decoration-line: line-through;
+  text-decoration-line: line-through;
+}
 .tracking-tighter {
   letter-spacing: -0.05em;
 }
