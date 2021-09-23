@@ -91,9 +91,6 @@ h1 {
   font-weight: inherit;
   margin: 0;
 }
-h1, blockquote, p {
-  margin: 0;
-}
 h1, p, h2 {
   margin: 0;
 }
@@ -117,6 +114,9 @@ h1, p, h2, h3, hr {
   margin: 0;
 }
 h1, p, blockquote, h2 {
+  margin: 0;
+}
+h1, blockquote, p {
   margin: 0;
 }
 img {
@@ -237,11 +237,11 @@ ul {
 .border-l-2 {
   border-left-width: 2px;
 }
-.border-l-4 {
-  border-left-width: 4px;
-}
 .border-b-2 {
   border-bottom-width: 2px;
+}
+.border-l-4 {
+  border-left-width: 4px;
 }
 .cursor-pointer {
   cursor: pointer;
@@ -421,11 +421,11 @@ ul {
 .mt-2 {
   margin-top: 0.5rem;
 }
-.mt-6 {
-  margin-top: 1.5rem;
-}
 .ml-6 {
   margin-left: 1.5rem;
+}
+.mt-6 {
+  margin-top: 1.5rem;
 }
 .ml-2 {
   margin-left: 0.5rem;
@@ -561,10 +561,6 @@ ul {
 .underline {
   -webkit-text-decoration-line: underline;
   text-decoration-line: underline;
-}
-.line-through {
-  -webkit-text-decoration-line: line-through;
-  text-decoration-line: line-through;
 }
 .tracking-tighter {
   letter-spacing: -0.05em;
